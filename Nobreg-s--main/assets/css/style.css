@@ -1,0 +1,133 @@
+.hero {
+  background-image: url(../icons/hero.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  padding-top: 10vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-info {
+  padding-left: 10rem;
+  width: 100%;
+}
+
+.hero-info h1 {
+  font-size: 6.4rem;
+}
+
+.hero-info p {
+  font-size: 2.4rem;
+}
+
+.hero-nocontent {
+  width: 100%;
+}
+
+.relation {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../icons/pagina1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.relation-content {
+  padding-top: 10vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.relation-info {
+  padding-right: 10rem;
+  width: 100%;
+}
+
+.relation-info h2 {
+  font-size: 6.4rem;
+}
+
+.relation-info p {
+  font-size: 2.4rem;
+}
+
+.relation-nocontent {
+  width: 100%;
+}
+
+.tracking {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../icons/pagina2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tracking-content {
+  padding-top: 10vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tracking-info {
+  padding-left: 10rem;
+  width: 100%;
+}
+
+.tracking-info h2 {
+  font-size: 6.4rem;
+}
+
+.tracking-info p {
+  font-size: 2.4rem;
+}
+
+.tracking-nocontent {
+  width: 100%;
+}
+
+.show-product {
+  background-color: #00000000;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 200px;
+  height: 6rem;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 4rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.show-product:hover {
+  background-color: #fff;
+  color: #000;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/nobrelogofoto.png"
+      type="image/x-icon"
+    />
+    <script defer src="./assets/js/index.js"></script>
+    <title>Nobre Gás</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/">
+          <img src="./assets/icons/nobrelogofoto.png" alt="logo" />
+          <p>Nobregás</p>
+        </a>
+      </div>
+      <nav class="navigation">
+        <a href="/">Home</a>
+        <a href="dashboard/material-dashboard-master/pages/sign-in.html">Produto</a>
+        <a href="/sobre">Sobre</a>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <div class="hero-content">
+          <section class="hero-info">
+            <h1>Gerenciamento</h1>
+            <p>
+              A Nobregás oferece um serviço confiável e prático de gerenciamento
+              de estoque de forma fácil e simples, tornando o envio de gás da
+              sua empresa muito mais eficiente.
+            </p>
+          </section>
+        </div>
+        <div class="hero-nocontent"></div>
+      </div>
+
+      <div class="relation">
+        <div class="relation-content">
+          <div class="relation-nocontent"></div>
+          <div class="relation-info">
+            <h2>Relações</h2>
+            <p>
+              Estabeleça um feedback entre a empresa e o cliente, por meio de um
+              sistema de avaliação que é enviado diretamente as filiais, com o
+              intuito de certificar o recebimento dos produtos enviados para o
+              transporte.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tracking">
+        <div class="tracking-content">
+          <div class="tracking-info">
+            <h2>Rastreamento</h2>
+            <p>
+              Mantenha os transportes em vista com o sistema de rastreamento em
+              tempo real oferecido por nossa empresa, assegurando a chegada ao
+              destino dos transportes e relatando quaisquer desvios para as
+              autoridades locais.
+            </p>
+            <button class="show-product">Ver Produto ></button>
+          </div>
+          <div class="tracking-nocontent"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <h2>Contatos</h2>
+      <div class="contacts">
+        <div>
+          <h3>Ao Jeime</h3>
+          <p>aojeime3@gmail.com</p>
+        </div>
+        <div>
+          <h3>Clara Rayssa</h3>
+          <p>cla.ray.oliv@gmail.com</p>
+        </div>
+        <div>
+          <h3>Kauan de Aquino</h3>
+          <p>kauan.barbosa@estudante.firjan.senai.br</p>
+        </div>
+        <div>
+          <h3>Lucas Simões</h3>
+          <p>l.videira@estudante.firjan.senai.br</p>
+        </div>
+        <div>
+          <h3>Matheus Paiva</h3>
+          <p>contatomatheusdasilvapaiva@gmail.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const button = document.querySelector("body > main > div.tracking > div > div.tracking-info > button")
+      
+      button.addEventListener("click", () => {
+        window.location.href = "dashboard/material-dashboard-master/pages/sign-in.html"
+      })
+    </script>
+  </body>
+</html>
